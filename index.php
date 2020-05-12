@@ -20,7 +20,7 @@ $numbers = 0; //point de départ 0
     }
   }
   // 2e version
-  for ($numbers = 0; $numbers <= 300; $numbers ++;){
+  for ($numbers = 0; $numbers <= 300; $numbers++){
     $oddnumbers = $numbers % 2;
     if ($oddnumbers != 0){
       ?>
